@@ -54,14 +54,14 @@ const Hero = () => {
           {/* Social Links */}
           <div className="animate-scale-in flex justify-center gap-6" style={{ animationDelay: '1s' }}>
             <a 
-              href="https://https://github.com/Kalinduwije22/" 
+              href="https://github.com/Kalinduwije22/" 
               className="glass p-4 rounded-full hover-lift hover-glow transition-all duration-300"
               aria-label="GitHub Profile"
             >
               <Github className="w-6 h-6" />
             </a>
             <a 
-              href="www.linkedin.com/in/kalindu-wijenayake-6857571a6" 
+              href="https://linkedin.com/in/kalindu-wijenayake-6857571a6" 
               className="glass p-4 rounded-full hover-lift hover-glow transition-all duration-300"
               aria-label="LinkedIn Profile"
             >
