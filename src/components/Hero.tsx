@@ -30,7 +30,7 @@ const Hero = () => {
           {/* Title */}
           <div className="animate-slide-up" style={{ animationDelay: '0.4s' }}>
             <h2 className="text-2xl md:text-4xl text-muted-foreground mb-8 font-light">
-              Machine Learning Engineer & AI Researcher
+              Hi, I'm Kalindu Wijenayake
             </h2>
           </div>
           
