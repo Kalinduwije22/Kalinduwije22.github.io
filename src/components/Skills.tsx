@@ -4,38 +4,38 @@ const Skills = () => {
   const skillCategories = [
     {
       icon: Code,
-      title: "Frontend Development",
-      skills: ["React", "TypeScript", "Next.js", "Tailwind CSS", "HTML5/CSS3"],
+      title: "Deep Learning",
+      skills: ["PyTorch", "TensorFlow", "Keras", "Neural Networks", "CNNs/RNNs"],
       color: "from-blue-500 to-purple-600"
     },
     {
       icon: Server,
-      title: "Backend Development",
-      skills: ["Node.js", "Python", "Express", "REST APIs", "GraphQL"],
+      title: "Machine Learning",
+      skills: ["Scikit-learn", "XGBoost", "Random Forest", "SVM", "Ensemble Methods"],
       color: "from-green-500 to-blue-500"
     },
     {
       icon: Database,
-      title: "Database & Cloud",
-      skills: ["PostgreSQL", "MongoDB", "AWS", "Docker", "Redis"],
+      title: "Data Science",
+      skills: ["Pandas", "NumPy", "Matplotlib", "Seaborn", "Jupyter"],
       color: "from-purple-500 to-pink-500"
     },
     {
       icon: Palette,
-      title: "Design & UX",
-      skills: ["Figma", "Adobe XD", "UI/UX Design", "Prototyping", "Design Systems"],
+      title: "Computer Vision",
+      skills: ["OpenCV", "PIL", "Image Classification", "Object Detection", "GANs"],
       color: "from-pink-500 to-red-500"
     },
     {
       icon: Smartphone,
-      title: "Mobile Development",
-      skills: ["React Native", "Flutter", "iOS", "Android", "Progressive Web Apps"],
+      title: "NLP & LLMs",
+      skills: ["Transformers", "BERT", "GPT", "spaCy", "Hugging Face"],
       color: "from-orange-500 to-yellow-500"
     },
     {
       icon: Globe,
-      title: "DevOps & Tools",
-      skills: ["Git", "CI/CD", "Webpack", "Jest", "Agile/Scrum"],
+      title: "MLOps & Deployment",
+      skills: ["Docker", "Kubernetes", "MLflow", "AWS SageMaker", "FastAPI"],
       color: "from-cyan-500 to-green-500"
     }
   ];
@@ -52,7 +52,7 @@ const Skills = () => {
           </h2>
           <div className="w-20 h-1 gradient-primary rounded-full mx-auto mb-8" />
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            A comprehensive toolkit for building modern web applications and digital experiences.
+            A comprehensive toolkit for building intelligent systems and AI-powered solutions.
           </p>
         </div>
         
@@ -101,7 +101,7 @@ const Skills = () => {
             Always learning and exploring new technologies...
           </p>
           <div className="flex flex-wrap justify-center gap-4">
-            {["AI/ML", "Blockchain", "WebAssembly", "Three.js", "Rust"].map((tech) => (
+            {["Reinforcement Learning", "Graph Neural Networks", "MLOps", "AutoML", "Quantum ML"].map((tech) => (
               <span 
                 key={tech}
                 className="glass px-6 py-3 rounded-full text-sm hover-lift hover:text-primary transition-all duration-300"

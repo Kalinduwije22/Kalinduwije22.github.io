@@ -30,15 +30,15 @@ const Hero = () => {
           {/* Title */}
           <div className="animate-slide-up" style={{ animationDelay: '0.4s' }}>
             <h2 className="text-2xl md:text-4xl text-muted-foreground mb-8 font-light">
-              Full Stack Developer & UI/UX Designer
+              Machine Learning Engineer & AI Researcher
             </h2>
           </div>
           
           {/* Description */}
           <div className="animate-slide-up" style={{ animationDelay: '0.6s' }}>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-12 leading-relaxed">
-              I craft beautiful, functional web experiences that solve real problems. 
-              Passionate about clean code, elegant design, and building products that make a difference.
+              I build intelligent systems that learn from data and solve complex problems. 
+              Passionate about deep learning, computer vision, NLP, and creating AI solutions that make a real impact.
             </p>
           </div>
           

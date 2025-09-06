@@ -4,55 +4,55 @@ import { Button } from "@/components/ui/button";
 const Projects = () => {
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "A modern e-commerce solution with real-time inventory, payment processing, and admin dashboard. Built with React, Node.js, and PostgreSQL.",
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=600&fit=crop",
-      tags: ["React", "Node.js", "PostgreSQL", "Stripe", "AWS"],
+      title: "Computer Vision Model for Medical Diagnosis",
+      description: "Deep learning model using CNNs to detect skin cancer from dermoscopy images with 94% accuracy. Deployed as a web application for dermatologists.",
+      image: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800&h=600&fit=crop",
+      tags: ["PyTorch", "Computer Vision", "ResNet", "FastAPI", "Docker"],
       github: "https://github.com",
       live: "https://example.com",
       featured: true
     },
     {
-      title: "Task Management App",
-      description: "Collaborative project management tool with real-time updates, file sharing, and team communication features.",
-      image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=800&h=600&fit=crop",
-      tags: ["React", "TypeScript", "Socket.io", "MongoDB"],
+      title: "NLP Sentiment Analysis System",
+      description: "Real-time sentiment analysis platform processing social media data using transformers and BERT models with 92% accuracy across multiple languages.",
+      image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=600&fit=crop",
+      tags: ["BERT", "Transformers", "NLP", "Python", "Streamlit"],
       github: "https://github.com",
       live: "https://example.com",
       featured: true
     },
     {
-      title: "Weather Analytics Dashboard",
-      description: "Interactive dashboard displaying weather patterns and forecasts with beautiful data visualizations and location-based insights.",
-      image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=800&h=600&fit=crop",
-      tags: ["React", "D3.js", "Weather API", "Charts"],
+      title: "Predictive Analytics for Stock Trading",
+      description: "LSTM-based model predicting stock prices using technical indicators and market sentiment. Achieved 15% better returns than baseline strategies.",
+      image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&h=600&fit=crop",
+      tags: ["LSTM", "Time Series", "NumPy", "Pandas", "TA-Lib"],
       github: "https://github.com",
       live: "https://example.com",
       featured: false
     },
     {
-      title: "AI-Powered Blog Platform",
-      description: "Content management system with AI-assisted writing, SEO optimization, and automatic content generation capabilities.",
-      image: "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800&h=600&fit=crop",
-      tags: ["Next.js", "OpenAI API", "Tailwind", "CMS"],
+      title: "Recommendation Engine",
+      description: "Collaborative filtering recommendation system for e-commerce platform serving 100K+ users with personalized product suggestions.",
+      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop",
+      tags: ["Collaborative Filtering", "Matrix Factorization", "Spark", "MLlib"],
       github: "https://github.com",
       live: "https://example.com",
       featured: false
     },
     {
-      title: "Fitness Tracking Mobile App",
-      description: "Cross-platform mobile application for tracking workouts, nutrition, and progress with social features and gamification.",
-      image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&h=600&fit=crop",
-      tags: ["React Native", "Firebase", "Health APIs", "Charts"],
+      title: "Autonomous Drone Navigation",
+      description: "Reinforcement learning model for autonomous drone navigation using computer vision and deep Q-networks for obstacle avoidance.",
+      image: "https://images.unsplash.com/photo-1473968512647-3e447244af8f?w=800&h=600&fit=crop",
+      tags: ["Reinforcement Learning", "DQN", "OpenCV", "ROS", "Gazebo"],
       github: "https://github.com",
       live: "https://example.com",
       featured: false
     },
     {
-      title: "Real Estate Platform",
-      description: "Comprehensive property listing platform with advanced search, virtual tours, and mortgage calculator integration.",
-      image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&h=600&fit=crop",
-      tags: ["Vue.js", "Laravel", "MySQL", "Maps API"],
+      title: "Speech Recognition System",
+      description: "End-to-end speech recognition system using wav2vec2 and transformer architectures with support for multiple languages and accents.",
+      image: "https://images.unsplash.com/photo-1589254065878-42c9da997008?w=800&h=600&fit=crop",
+      tags: ["wav2vec2", "Speech Recognition", "Transformers", "LibriSpeech"],
       github: "https://github.com",
       live: "https://example.com",
       featured: false
@@ -71,7 +71,7 @@ const Projects = () => {
           </h2>
           <div className="w-20 h-1 gradient-primary rounded-full mx-auto mb-8" />
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            A showcase of my recent work, demonstrating expertise across different technologies and industries.
+            A showcase of my recent ML projects, demonstrating expertise across different domains and AI techniques.
           </p>
         </div>
 

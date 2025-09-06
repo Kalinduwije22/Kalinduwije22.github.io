@@ -32,34 +32,33 @@ const About = () => {
             
             <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
               <p>
-                With over 5 years of experience in web development, I specialize in creating 
-                seamless digital experiences that blend beautiful design with robust functionality. 
-                My journey began with a fascination for how code can bring ideas to life.
+                With over 5 years of experience in machine learning, I specialize in developing 
+                intelligent systems that extract insights from complex data and automate decision-making. 
+                My journey began with a fascination for how machines can learn and adapt from data.
               </p>
               
               <p>
-                I work across the full stack, from crafting pixel-perfect user interfaces 
-                with React and TypeScript to building scalable backend systems with Node.js 
-                and PostgreSQL. I'm passionate about writing clean, maintainable code and 
-                following best practices.
+                I work across the entire ML pipeline, from data preprocessing and feature engineering 
+                to model development with PyTorch and TensorFlow. I have expertise in deep learning, 
+                computer vision, NLP, and deploying production ML systems at scale.
               </p>
               
               <p>
-                When I'm not coding, you'll find me exploring new technologies, contributing 
-                to open source projects, or mentoring junior developers. I believe in the 
-                power of continuous learning and collaborative problem-solving.
+                When I'm not training models, you'll find me researching cutting-edge papers, 
+                contributing to ML open source projects, or sharing knowledge through technical blogs. 
+                I believe in the transformative power of AI and responsible machine learning practices.
               </p>
             </div>
             
             {/* Key highlights */}
             <div className="grid grid-cols-2 gap-6 pt-8">
               <div className="glass p-6 rounded-2xl hover-lift">
-                <h3 className="text-2xl font-bold text-primary mb-2">50+</h3>
-                <p className="text-muted-foreground">Projects Completed</p>
+                <h3 className="text-2xl font-bold text-primary mb-2">30+</h3>
+                <p className="text-muted-foreground">ML Models Deployed</p>
               </div>
               <div className="glass p-6 rounded-2xl hover-lift">
                 <h3 className="text-2xl font-bold text-accent mb-2">5+</h3>
-                <p className="text-muted-foreground">Years Experience</p>
+                <p className="text-muted-foreground">Years ML Experience</p>
               </div>
             </div>
           </div>

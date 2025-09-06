@@ -22,7 +22,7 @@ const Contact = () => {
           </h2>
           <div className="w-20 h-1 gradient-primary rounded-full mx-auto mb-8" />
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Ready to start a project together? I'd love to hear about your ideas and discuss how we can bring them to life.
+            Ready to collaborate on an AI project? I'd love to discuss your ML challenges and how we can solve them with intelligent solutions.
           </p>
         </div>
 
@@ -102,8 +102,8 @@ const Contact = () => {
                 Let's Connect
               </h3>
               <p className="text-muted-foreground mb-8 leading-relaxed">
-                I'm always interested in new opportunities, creative projects, and meaningful collaborations. 
-                Whether you have a project in mind or just want to chat about technology, feel free to reach out!
+                I'm always interested in challenging ML problems, research collaborations, and innovative AI applications. 
+                Whether you have a specific ML challenge or want to discuss the latest in AI research, feel free to reach out!
               </p>
             </div>
 
@@ -190,7 +190,7 @@ const Contact = () => {
                 <h4 className="font-semibold text-green-400">Available for New Projects</h4>
               </div>
               <p className="text-muted-foreground text-sm">
-                Currently accepting new freelance projects and full-time opportunities. 
+                Currently accepting ML consulting projects and research opportunities. 
                 Expected response time: 24-48 hours.
               </p>
             </div>
