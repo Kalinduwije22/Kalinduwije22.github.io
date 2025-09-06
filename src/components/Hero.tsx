@@ -37,8 +37,7 @@ const Hero = () => {
           {/* Description */}
           <div className="animate-slide-up" style={{ animationDelay: '0.6s' }}>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-12 leading-relaxed">
-              I build intelligent systems that learn from data and solve complex problems. 
-              Passionate about deep learning, computer vision, NLP, and creating AI solutions that make a real impact.
+              Information Technology and Management Student at Univerity of Colombo
             </p>
           </div>
           
